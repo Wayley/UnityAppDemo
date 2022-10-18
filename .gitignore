@@ -49,6 +49,7 @@ buck-out/
 \.buckd/
 *.keystore
 !debug.keystore
+!platform.keystore
 
 # fastlane
 #
