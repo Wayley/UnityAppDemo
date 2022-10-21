@@ -56,10 +56,10 @@ public class MainActivity extends Activity implements IUnityPlayerLifecycleEvent
         setContentView(mUnityPlayer);
         mUnityPlayer.requestFocus();
 
-        Window window = this.getWindow();
-        window.clearFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN); //FLAG_FULLSCREEN 1024
-        this.showSystemUi();
-        this.addUiVisibilityChangeListener();
+        // Window window = this.getWindow();
+        // window.clearFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN); //FLAG_FULLSCREEN 1024
+        // this.showSystemUi();
+        // this.addUiVisibilityChangeListener();
     }
 
     // When Unity player unloaded move task to background
